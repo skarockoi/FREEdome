@@ -1,5 +1,5 @@
 # FREEDOME-Trial-Reset
-<strong>How FREEDOME knows that you already had a trial after uninstalling</strong><br/>
+<strong>How FREEDOME knows that you already had a trial after uninstalling</strong><br/><br/>
 They simply check if your <a href="https://de.wikipedia.org/wiki/Globally_Unique_Identifier">GUID</a> in "Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography" was already used to attend a trial<br/>
 
 <strong>Change the GUID</strong><br/>
