@@ -1,4 +1,4 @@
-<strong>How does FREEDOME knows that you already had a trial after uninstalling ?</strong><br/>
+<strong>How does FREEDOME know that you already had a trial after uninstalling ?</strong><br/>
 -They simply check if your <a href="https://de.wikipedia.org/wiki/Globally_Unique_Identifier">GUID</a> was already used to activate a trial.
 
 So we just change our GUID slightly so that FREEDOME thinks we are a new user.<br/>
