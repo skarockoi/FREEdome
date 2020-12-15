@@ -1,5 +1,5 @@
 <strong>How does FREEDOME knows that you already had a trial after uninstalling ?</strong><br/>
--> They simply check if your <a href="https://de.wikipedia.org/wiki/Globally_Unique_Identifier">GUID</a> in "Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography" was already used to attend a trial.
+-> They simply check if your <a href="https://de.wikipedia.org/wiki/Globally_Unique_Identifier">GUID</a> in "Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography" was already used.
 
 So we just change our GUID slightly so that FREEDOME thinks we are a new user.<br/>
 But <strong>CAUTION</strong>, changing the GUID could mess with other programs, as it's widely used
