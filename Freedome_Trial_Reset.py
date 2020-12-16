@@ -2,7 +2,7 @@ import urllib.request
 import uuid 
 import os
 
-print("Deleting Freedome...\n")
+print("Uninstalling Freedome...\n")
 os.system('cmd /c "C:\\Program Files (x86)\\F-Secure\\Freedome\\Freedome\\1\\uninstall.exe"')
 
 print("Changing GUID...")
