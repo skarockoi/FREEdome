@@ -3,7 +3,7 @@
 
 So we just change our GUID slightly so that FREEDOME thinks we are a new user, but <strong>CAUTION</strong>, changing the GUID could mess with other programs, as it's widely used
 # How to change the GUID 
-Use the python script or do it manually:<br/>
+Use the <a href="https://github.com/xhz8s/FREEDOME-Trial-Reset/blob/main/Freedome_Trial_Reset.py">python script</a> or do it manually:<br/>
 1. Uninstall FREEDOME<br/>
 2. Open the Registry Editor(search for regedit in the Windows search bar)<br/>
 3. Go To "Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography"<br/>
