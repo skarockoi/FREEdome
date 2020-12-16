@@ -7,6 +7,5 @@ So we just change our GUID slightly so that FREEDOME thinks we are a new user, b
 2. Open the Registry Editor(search for regedit in the Windows search bar)<br/>
 3. Go To "Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography"<br/>
 4. Double click on "MachineGuid" and change the last character to any number/letter<br/>
-5. Reboot your computer<br/>
-6. Install FREEDOME again<br/>
-7. Enjoy 5 more days of FREEDOME<br/>
+5. Install FREEDOME again<br/>
+6. Enjoy 5 more days of FREEDOME<br/>
