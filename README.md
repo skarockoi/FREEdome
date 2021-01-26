@@ -5,7 +5,7 @@ So we just change our GUID slightly so that FREEDOME thinks we are a new user, b
 # How to change the GUID 
 Use the <a href="https://github.com/xhz8s/FREEDOME-Trial-Reset/raw/main/Reset%20Trial.exe">Program</a>, <a href="https://github.com/xhz8s/FREEDOME-Trial-Reset/blob/main/Reset%20Trial.ps1">Script</a> or do it manually:<br/>
 1. Uninstall FREEDOME<br/>
-2. Open the Registry Editor(search for regedit in the Windows search bar)<br/>
+2. Open the Registry Editor<br/>
 3. Go To "Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography"<br/>
 4. Double click on "MachineGuid" and change the last character to any number/letter<br/>
 5. Install FREEDOME again<br/>
