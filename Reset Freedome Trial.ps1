@@ -5,5 +5,5 @@ echo 'Changing GUID...'
   Set-Itemproperty -path "HKLM:\SOFTWARE\Microsoft\Cryptography" -Name 'MachineGuid' -value (New-Guid).ToString()
 
 echo 'Downloading Freedome...'
-wget "https://download.sp.f-secure.com/freedome/installer/2/Freedome.exe" -outfile ((Get-Location).ToString() + "/Freedome.exe")
+  wget "https://download.sp.f-secure.com/freedome/installer/2/Freedome.exe" -outfile ((Get-Location).ToString() + "/Freedome.exe")
   Start-Process ((Get-Location).ToString() + "/Freedome.exe") -NoNewWindow -Wait
