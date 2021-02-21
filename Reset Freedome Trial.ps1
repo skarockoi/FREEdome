@@ -6,4 +6,7 @@ echo 'Changing GUID...'
 
 echo 'Downloading Freedome...'
   wget "https://download.sp.f-secure.com/freedome/installer/2/Freedome.exe" -outfile ((Get-Location).ToString() + "/Freedome.exe")
+
+echo 'Installing Freedome'
   Start-Process ((Get-Location).ToString() + "/Freedome.exe") -NoNewWindow -Wait
+  Remove-Item ((Get-Location).ToString() + "/Freedome.exe")
