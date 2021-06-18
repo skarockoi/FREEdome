@@ -7,6 +7,6 @@ Use the <a href="https://github.com/xhz8s/FREEDOME-Trial-Reset/blob/main/Reset%2
 1. Uninstall FREEDOME<br/>
 2. Open the Registry Editor<br/>
 3. Go To "Computer\HKEY_LOCAL_MACHINE\SOFTWARE\Microsoft\Cryptography"<br/>
-4. Double click on "MachineGuid" and change the last character to any number/letter<br/>
+4. Double click on "MachineGuid" and change the value slightly<br/>
 5. Install FREEDOME again<br/>
 6. Enjoy 5 more days of FREEDOME<br/>
