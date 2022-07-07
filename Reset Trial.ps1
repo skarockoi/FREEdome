@@ -1,5 +1,5 @@
 echo 'Uninstalling Freedome...'
-  & ((Get-ChildItem -Path "C:\Program Files (x86)\" -recurse -filter "Freedome.exe" -file -ErrorAction SilentlyContinue | foreach-object {$place_path = $_.directory; echo ("${place_path}\${_}").Replace("Freedome.exe","") }) + ("uninstall.exe")) /run /exit /SilentMode
+  & ((Get-ChildItem -Path "C:\Program Files (x86)\" -recurse -filter "Freedome.exe" -file -ErrorAction SilentlyContinue | foreach-object {$place_path = $_.directory; echo ("${place_path}\${_}").Replace("Freedome.exe","") }) + ("fsvpnuninstall.exe")) /run /exit /SilentMode
 
 echo 'Changing GUID...'
   Set-Itemproperty -path "HKLM:\SOFTWARE\Microsoft\Cryptography" -Name 'MachineGuid' -value (New-Guid).ToString()
